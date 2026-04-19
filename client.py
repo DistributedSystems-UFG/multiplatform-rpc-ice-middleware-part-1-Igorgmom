@@ -9,3 +9,5 @@ if not printer:
     raise RuntimeError("Invalid proxy")
 
 printer.printString("Hello World!")
+printer.toUpperCase("hello ice")
+printer.concatenate("Hello ", "World!")
